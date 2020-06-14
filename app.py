@@ -6,6 +6,7 @@ from wordcloud import WordCloud , STOPWORDS
 import matplotlib.pyplot as plt
 
 st.title('Sentiment Analysis of Tweets about US Airlines')
+st.markdown('By Adarsh Shetty')
 st.sidebar.title('Sentiment Analysis of Tweets about US Airlines')
 
 st.markdown('This application is a streamlit dashboard to analyse the sentiment of Tweets 🐦')
